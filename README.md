@@ -115,8 +115,8 @@ Each endpoint is equipped with built-in security features to ensure safe and rel
 ```
 
 ### Delete AUTHOR
-**URL: `DELETE /author/delete{id}**
-**Method: `DELETE`**
+URL: `DELETE /author/delete{id}
+Method: `DELETE`
 
 #### Payload  
 ```
