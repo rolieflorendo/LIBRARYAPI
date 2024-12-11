@@ -1,8 +1,9 @@
 # Library API Documentation
 
-*Welcome to the Library API! This API provides a powerful and secure solution for managing library resources, including users, authors, and books. Designed for ease of use and scalability, it enables seamless integration of library management capabilities into various applications. Whether you're building a library management system, a book cataloging platform, or any application that requires robust CRUD functionality, this API has you covered.
+Welcome to the Library API! This API provides a powerful and secure solution for managing library resources, including users, authors, and books. Designed for ease of use and scalability, it enables seamless integration of library management capabilities into various applications. Whether you're building a library management system, a book cataloging platform, or any application that requires robust CRUD functionality, this API has you covered.
 
-Each endpoint is equipped with built-in security features to ensure safe and reliable operations. The API supports features such as user registration, authentication, and authorization to protect resources. It also facilitates the management of books, authors, and their relationships, enabling advanced data organization and querying*
+Each endpoint is equipped with built-in security features to ensure safe and reliable operations. The API supports features such as user registration, authentication, and authorization to protect resources. It also facilitates the management of books, authors, and their relationships, enabling advanced data organization and querying
+
 ---
 
 ##### User REGISTRATION
@@ -53,8 +54,8 @@ Each endpoint is equipped with built-in security features to ensure safe and rel
 ### Payload
 ```bash
 {
-  "username": "123",
-  "password": "123"
+  "username": "your_username",
+  "password": "your_password"
 }
 
 ```
@@ -101,7 +102,7 @@ Each endpoint is equipped with built-in security features to ensure safe and rel
   "status": "success",
   "data": [
     {
-      "author_id": "1",
+      "author_id": "author_15",
       "name": "Author Name",
       "books": [
         "Book 1",
@@ -150,7 +151,7 @@ Each endpoint is equipped with built-in security features to ensure safe and rel
     {
       "book_id": "100",
       "title": "Title_of_Book",
-      "author_id": "author_id"
+      "author_id": "author_15"
     }
   ]
 }
@@ -205,8 +206,8 @@ Each endpoint is equipped with built-in security features to ensure safe and rel
 #### Payload  
 ```
 {
-  "authorid": 24,
-  "bookid": 36,
+  "authorid": author_20,
+  "bookid": 40,
   "token": "token from authentication"
 }
 
@@ -220,7 +221,7 @@ Each endpoint is equipped with built-in security features to ensure safe and rel
     {
       "relation_id": "11",
       "book_id": "7",
-      "author_id": "4"
+      "author_id": "author_30"
     }
   ]
 }
